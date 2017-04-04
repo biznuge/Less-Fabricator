@@ -28,14 +28,14 @@ var gulpif = require('gulp-if');
 var imagemin = require('gulp-imagemin');
 //var jquery = require('jquery');
 var plumber = require('gulp-plumber');
-var prefix = require('gulp-autoprefixer');
+//var prefix = require('gulp-autoprefixer');
 var Q = require('q');
 var rename = require('gulp-rename');
 var reload = browserSync.reload;
 var runSequence = require('run-sequence');
-//var less = require('gulp-less');
-//var sourcemaps = require('gulp-sourcemaps');
-var less = require('gulp-less-sourcemap');
+var less = require('gulp-less');
+var sourcemaps = require('gulp-sourcemaps');
+//var less = require('gulp-less-sourcemap');
 var source = require('vinyl-source-stream');
 var streamify = require('gulp-streamify');
 var uglify = require('gulp-uglify');
@@ -99,15 +99,17 @@ gulp.task('styles:fabricator', function () {
 
 gulp.task('styles:toolkit', function () {
 	return gulp.src(config.src.styles.toolkit)
-		.pipe(plumber())
+		//.pipe(plumber())
 		//.pipe(clip())		
 		//.pipe(sourcemaps.init())    		
+        .pipe(sourcemaps.init({loadMaps: true}))
 		.pipe(less({
 			errLogToConsole: true/*,
 			sourceMap: {
 			    sourceMapRootpath: 'node_modules/bootstrap-less/bootstrap/' // Optional absolute or relative path to your LESS files 
 			}*/
 		}))
+        .pipe(sourcemaps.write('./'))
 		//.pipe(sourcemaps.write())
 		//.pipe(prefix('last 2 version'))
 		.pipe(gulpif(!config.dev, csso()))
