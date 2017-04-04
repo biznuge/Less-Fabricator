@@ -22,6 +22,7 @@ var concat = require('gulp-concat');
 var csso = require('gulp-csso');
 var del = require('del');
 var gulp = require('gulp');
+var clip = require('gulp-clip-empty-files');
 var gutil = require('gulp-util');
 var gulpif = require('gulp-if');
 var imagemin = require('gulp-imagemin');
@@ -32,7 +33,9 @@ var Q = require('q');
 var rename = require('gulp-rename');
 var reload = browserSync.reload;
 var runSequence = require('run-sequence');
-var less = require('gulp-less');
+//var less = require('gulp-less');
+//var sourcemaps = require('gulp-sourcemaps');
+var less = require('gulp-less-sourcemap');
 var source = require('vinyl-source-stream');
 var streamify = require('gulp-streamify');
 var uglify = require('gulp-uglify');
@@ -51,7 +54,11 @@ var config = {
 				srcFabricator + '/scripts/classlist-shim.js',
 				srcFabricator + '/scripts/fabricator.js'
 			],
-			toolkit: srcToolkit + '/assets/scripts/toolkit.js'
+			toolkit: [
+				srcToolkit + '/assets/scripts/toolkit.js',
+				'node_modules/jquery/dist/jquery.min.js',
+				'node_modules/bootstrap-less/js/bootstrap.min.js'
+			]
 		},
 		styles: {
 			fabricator: srcFabricator + '/styles/fabricator.less',
@@ -79,10 +86,11 @@ gulp.task('clean', function (cb) {
 gulp.task('styles:fabricator', function () {
 	return gulp.src(config.src.styles.fabricator)
 		.pipe(plumber())
+		//.pipe(clip())		
 		.pipe(less({
 			errLogToConsole: true
 		}))
-		.pipe(prefix('last 2 version'))
+		//.pipe(prefix('last 2 version'))
 		.pipe(gulpif(!config.dev, csso()))
 		.pipe(rename('f.css'))
 		.pipe(gulp.dest(config.dest + '/fabricator/styles'))
@@ -92,28 +100,22 @@ gulp.task('styles:fabricator', function () {
 gulp.task('styles:toolkit', function () {
 	return gulp.src(config.src.styles.toolkit)
 		.pipe(plumber())
+		//.pipe(clip())		
+		//.pipe(sourcemaps.init())    		
 		.pipe(less({
-			errLogToConsole: true
+			errLogToConsole: true/*,
+			sourceMap: {
+			    sourceMapRootpath: 'node_modules/bootstrap-less/bootstrap/' // Optional absolute or relative path to your LESS files 
+			}*/
 		}))
-		.pipe(prefix('last 2 version'))
+		//.pipe(sourcemaps.write())
+		//.pipe(prefix('last 2 version'))
 		.pipe(gulpif(!config.dev, csso()))
 		.pipe(gulp.dest(config.dest + '/toolkit/styles'))
 		.pipe(gulpif(config.dev, reload({stream:true})));
 });
 
-gulp.task('styles:bootstrap', function () {
-	return gulp.src(config.src.styles.bootstrap)
-		.pipe(plumber())
-		.pipe(less({
-			errLogToConsole: true
-		}))
-		.pipe(prefix('last 2 version'))
-		.pipe(gulpif(!config.dev, csso()))
-		.pipe(gulp.dest(config.dest + '/bootstrap/styles'))
-		.pipe(gulpif(config.dev, reload({stream:true})));
-});
-
-gulp.task('styles', ['styles:fabricator', 'styles:toolkit', 'styles:bootstrap']);
+gulp.task('styles', ['styles:fabricator', 'styles:toolkit']);
 
 
 // scripts
@@ -126,11 +128,19 @@ gulp.task('scripts:fabricator', function () {
 });
 
 gulp.task('scripts:toolkit', function () {
-	return browserify(config.src.scripts.toolkit).bundle()
+	/*return browserify(config.src.scripts.toolkit).bundle()
 		.pipe(plumber())
-		.pipe(source('toolkit.js'))
+		//.pipe(source('toolkit.js'))
+		.pipe(concat('toolkit.js'))		
 		.pipe(gulpif(!config.dev, streamify(uglify())))
+		.pipe(gulp.dest(config.dest + '/toolkit/scripts'));*/
+
+	return gulp.src(config.src.scripts.toolkit)
+		.pipe(plumber())
+		.pipe(concat('toolkit.js'))
+		.pipe(gulpif(!config.dev, uglify()))
 		.pipe(gulp.dest(config.dest + '/toolkit/scripts'));
+
 });
 
 gulp.task('scripts', ['scripts:fabricator', 'scripts:toolkit']);
