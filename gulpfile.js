@@ -1,8 +1,21 @@
 'use strict';
 
+/*plugins:[
+    new webpack.ProvidePlugin({
+        jQuery: 'jquery',
+        $: 'jquery',
+        jquery: 'jquery'
+    })
+]*/
+
 // modules
+var jQuery = require('jquery');
+var $ = require('jquery');
+var jquery = require('jquery');
+
 var browserify = require('browserify');
 var browserSync = require('browser-sync');
+//var bootstrapLess = require('bootstrap-less');
 var collate = require('./tasks/collate');
 var compile = require('./tasks/compile');
 var concat = require('gulp-concat');
@@ -12,6 +25,7 @@ var gulp = require('gulp');
 var gutil = require('gulp-util');
 var gulpif = require('gulp-if');
 var imagemin = require('gulp-imagemin');
+//var jquery = require('jquery');
 var plumber = require('gulp-plumber');
 var prefix = require('gulp-autoprefixer');
 var Q = require('q');
@@ -26,6 +40,8 @@ var uglify = require('gulp-uglify');
 // Configuration Control
 var srcFabricator = './src/fabricator';
 var srcToolkit = './src/toolkit';
+var srcBootstrap = './src/bootstrap';
+
 var config = {
 	dev: gutil.env.dev,
 	src: {
@@ -39,7 +55,8 @@ var config = {
 		},
 		styles: {
 			fabricator: srcFabricator + '/styles/fabricator.less',
-			toolkit: srcToolkit + '/assets/styles/toolkit.less'
+			toolkit: srcToolkit + '/assets/styles/toolkit.less',
+			bootstrap: srcBootstrap + '/styles/toolkit.less'
 		},
 		images: srcToolkit + '/assets/images/**/*',
 		views: srcToolkit + '/views/*.html',
@@ -84,7 +101,19 @@ gulp.task('styles:toolkit', function () {
 		.pipe(gulpif(config.dev, reload({stream:true})));
 });
 
-gulp.task('styles', ['styles:fabricator', 'styles:toolkit']);
+gulp.task('styles:bootstrap', function () {
+	return gulp.src(config.src.styles.bootstrap)
+		.pipe(plumber())
+		.pipe(less({
+			errLogToConsole: true
+		}))
+		.pipe(prefix('last 2 version'))
+		.pipe(gulpif(!config.dev, csso()))
+		.pipe(gulp.dest(config.dest + '/bootstrap/styles'))
+		.pipe(gulpif(config.dev, reload({stream:true})));
+});
+
+gulp.task('styles', ['styles:fabricator', 'styles:toolkit', 'styles:bootstrap']);
 
 
 // scripts
@@ -186,7 +215,14 @@ gulp.task('watch', ['browser-sync'], function () {
 	gulp.watch('src/toolkit/{components,structures,templates,documentation,views}/**/*.{html,md}', ['assemble', browserSync.reload]);
 	gulp.watch('src/fabricator/styles/**/*.less', ['styles:fabricator']);
 	gulp.watch('src/toolkit/assets/styles/**/*.less', ['styles:toolkit']);
-	gulp.watch('src/fabricator/scripts/**/*.js', ['scripts:fabricator', browserSync.reload]);
+	gulp.watch('src/bootstrap/styles/*.less', ['styles:bootstrap']);
+
+    gulp.watch('node_modules/bootstrap-less/bootstrap/*.less', ['styles:toolkit']);
+
+    gulp.watch('node_modules/bootstrap-less/bootstrap/**/*.less', ['styles:toolkit']);
+
+
+    gulp.watch('src/fabricator/scripts/**/*.js', ['scripts:fabricator', browserSync.reload]);
 	gulp.watch('src/toolkit/assets/scripts/**/*.js', ['scripts:toolkit', browserSync.reload]);
 	gulp.watch(config.src.images, ['images', browserSync.reload]);
 });
