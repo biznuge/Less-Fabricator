@@ -123,13 +123,13 @@
 
 <div class="f-container">
 	<div class="f-main">
-		<h1 data-f-toggle="details">Structures</h1>
+		<h1 data-f-toggle="details">Bootstrap</h1>
 
 
-			<div class="f-item-group" id="form">
+			<div class="f-item-group" id="alert-dismissable">
 
 				<div class="f-item-heading-group" data-f-toggle="details">
-					<a href="#form" class="f-item-heading">Form</a>
+					<a href="#alert-dismissable" class="f-item-heading">Alert Dismissable</a>
 					<div class="f-item-toggles">
 						
 						<span class="f-toggle f-icon" data-f-toggle-control="code" title="toggle code">
@@ -143,21 +143,57 @@
 				
 
 				<div class="f-item-preview">
-					<div>
-	<label for="text-input">Text input</label>
-	<input type="text" id="text-input">
+					<div class="alert alert-warning alert-dismissible" role="alert">
+	<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	<strong>Warning!</strong> Better check yourself, you're not looking too good.
 </div>
-
-<button class="button helper-class">Submit</button>
 				</div>
 
 				<div class="f-item-code f-item-hidden" data-f-toggle="code">
-					<pre><code class="language-markup">&lt;div&gt;
-	&lt;label for=&quot;text-input&quot;&gt;Text input&lt;/label&gt;
-	&lt;input type=&quot;text&quot; id=&quot;text-input&quot;&gt;
-&lt;/div&gt;
+					<pre><code class="language-markup">&lt;div class=&quot;alert alert-warning alert-dismissible&quot; role=&quot;alert&quot;&gt;
+	&lt;button type=&quot;button&quot; class=&quot;close&quot; data-dismiss=&quot;alert&quot; aria-label=&quot;Close&quot;&gt;&lt;span aria-hidden=&quot;true&quot;&gt;&amp;times;&lt;/span&gt;&lt;/button&gt;
+	&lt;strong&gt;Warning!&lt;/strong&gt; Better check yourself, you&#x27;re not looking too good.
+&lt;/div&gt;</code></pre>
+				</div>
 
-&lt;button class=&quot;button helper-class&quot;&gt;Submit&lt;/button&gt;</code></pre>
+			</div>
+
+
+			<div class="f-item-group" id="alert">
+
+				<div class="f-item-heading-group" data-f-toggle="details">
+					<a href="#alert" class="f-item-heading">Alert</a>
+					<div class="f-item-toggles">
+						<span class="f-toggle f-icon" data-f-toggle-control="notes" title="toggle notes">
+							<svg>
+								<use xlink:href="#f-icon-notes" />
+							</svg>
+						</span>
+						<span class="f-toggle f-icon" data-f-toggle-control="code" title="toggle code">
+							<svg>
+								<use xlink:href="#f-icon-code" />
+							</svg>
+						</span>
+					</div>
+				</div>
+
+				<div class="f-item-notes" data-f-toggle="notes">
+					<p>These are notes written in <code>markdown</code></p>
+
+				</div>
+
+				<div class="f-item-preview">
+					<div class="alert alert-success" role="alert">Alert showing Success</div>
+<div class="alert alert-info" role="alert">Alert showing Info</div>
+<div class="alert alert-warning" role="alert">Alert showing Warning</div>
+<div class="alert alert-danger" role="alert">Alert showing DANGER</div>
+				</div>
+
+				<div class="f-item-code f-item-hidden" data-f-toggle="code">
+					<pre><code class="language-markup">&lt;div class=&quot;alert alert-success&quot; role=&quot;alert&quot;&gt;Alert showing Success&lt;/div&gt;
+&lt;div class=&quot;alert alert-info&quot; role=&quot;alert&quot;&gt;Alert showing Info&lt;/div&gt;
+&lt;div class=&quot;alert alert-warning&quot; role=&quot;alert&quot;&gt;Alert showing Warning&lt;/div&gt;
+&lt;div class=&quot;alert alert-danger&quot; role=&quot;alert&quot;&gt;Alert showing DANGER&lt;/div&gt;</code></pre>
 				</div>
 
 			</div>

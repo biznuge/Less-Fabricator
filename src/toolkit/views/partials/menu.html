@@ -60,5 +60,15 @@
 				{{/each}}
 			</ul>
 		</li>
+		<li class="f-menu__category">
+			<div class="f-menu__link js-toggle-subnav">Bootstrap</div>
+			<ul class="f-menu--sub">
+				{{#each bootstrap}}
+					<li class="js-close">
+						<a href="bootstrap.html#{{id}}" class="f-menu__link">{{name}}</a>
+					</li>
+				{{/each}}
+			</ul>
+		</li>
 	</ul>
 </nav>

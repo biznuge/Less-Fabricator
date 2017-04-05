@@ -71,7 +71,8 @@ var config = {
 			'components',
 			'structures',
 			'templates',
-			'documentation'
+			'documentation',
+			'bootstrap'
 		]
 	},
 	dest: './build'
@@ -224,7 +225,7 @@ gulp.task('browser-sync', function () {
 
 // watch
 gulp.task('watch', ['browser-sync'], function () {
-	gulp.watch('src/toolkit/{components,structures,templates,documentation,views}/**/*.{html,md}', ['assemble', browserSync.reload]);
+	gulp.watch('src/toolkit/{components,structures,templates,documentation,views,bootstrap}/**/*.{html,md}', ['assemble', browserSync.reload]);
 	gulp.watch('src/fabricator/styles/**/*.less', ['styles:fabricator']);
 	gulp.watch('src/toolkit/assets/styles/**/*.less', ['styles:toolkit']);
 	gulp.watch('src/bootstrap/styles/*.less', ['styles:bootstrap']);

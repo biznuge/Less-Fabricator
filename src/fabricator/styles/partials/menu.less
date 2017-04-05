@@ -12,7 +12,7 @@
 	overflow-y: auto;
 	width: @menu-width;
 	height: 100%;
-	font-size: 16px;
+	font-size: 1.4em;
 	font-family: sans-serif;
 
 	.state--menu-active & {
@@ -43,7 +43,7 @@
 	padding: .8em;
 	border-width: 0 0 1px 0;
 	text-decoration: none;
-	font-size: .8rem;
+	font-size: 1.6rem;
 	cursor: pointer;
 	.theme-text-secondary-color();
 	.transition(all; @speed: 200ms);
@@ -63,12 +63,20 @@
 	}
 }
 
+
+
 .f-menu--sub {
 	width: 100%;
 	max-height: 0;
 	border-left: 1px solid darken(@color--light, 10%);
 	overflow: hidden;
+	
+	
 	.transition(all; @speed: 200ms);
+	li a.f-menu__link{
+		font-size: 1.2rem;
+		padding-left:2rem;
+	}
 }
 
 &.state--open {

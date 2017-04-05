@@ -130,7 +130,7 @@ pre[class*="language-"] {
   overflow-y: auto;
   width: 16rem;
   height: 100%;
-  font-size: 16px;
+  font-size: 1.4em;
   font-family: sans-serif;
 }
 .state--menu-active .f-menu {
@@ -156,7 +156,7 @@ pre[class*="language-"] {
   padding: .8em;
   border-width: 0 0 1px 0;
   text-decoration: none;
-  font-size: .8rem;
+  font-size: 1.6rem;
   cursor: pointer;
   color: #515151;
   transition: all 200ms cubic-bezier(0.86, 0, 0.07, 1) 0s;
@@ -180,6 +180,10 @@ pre[class*="language-"] {
   border-left: 1px solid #d8d8d8;
   overflow: hidden;
   transition: all 200ms cubic-bezier(0.86, 0, 0.07, 1) 0s;
+}
+.f-menu--sub li a.f-menu__link {
+  font-size: 1.2rem;
+  padding-left: 2rem;
 }
 .state--open .f-menu--sub {
   max-height: 1000px;
