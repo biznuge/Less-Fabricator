@@ -72,7 +72,8 @@ var config = {
 			'structures',
 			'templates',
 			'documentation',
-			'bootstrap'
+            'bootstrap',
+            'whitespace'
 		]
 	},
 	dest: './build'
@@ -230,9 +231,11 @@ gulp.task('watch', ['browser-sync'], function () {
 	gulp.watch('src/toolkit/assets/styles/**/*.less', ['styles:toolkit']);
 	gulp.watch('src/bootstrap/styles/*.less', ['styles:bootstrap']);
 
-    gulp.watch('node_modules/bootstrap-less/bootstrap/*.less', ['styles:toolkit']);
+    //gulp.watch('node_modules/bootstrap-less/bootstrap/*.less', ['styles:toolkit']);
+    //gulp.watch('node_modules/bootstrap-less/bootstrap/**/*.less', ['styles:toolkit']);
 
-    gulp.watch('node_modules/bootstrap-less/bootstrap/**/*.less', ['styles:toolkit']);
+    gulp.watch('bootstrap-less/bootstrap/*.less', ['styles:toolkit']);
+    gulp.watch('bootstrap-less/bootstrap/**/*.less', ['styles:toolkit']);
 
 
     gulp.watch('src/fabricator/scripts/**/*.js', ['scripts:fabricator', browserSync.reload]);
