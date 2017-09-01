@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b3ce8ed-b4dd-4b48-93ac-930c59f6552a" name="Default" comment="ensuring bootstrap is committed so we don't overwrite this.">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap-less/bootstrap/whitespace/abstractionlist.less" afterPath="$PROJECT_DIR$/bootstrap-less/bootstrap/whitespace/abstractionlist.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap-less/bootstrap/whitespace/app.less" afterPath="$PROJECT_DIR$/bootstrap-less/bootstrap/whitespace/app.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/toolkit/styles/toolkit.css" afterPath="$PROJECT_DIR$/build/toolkit/styles/toolkit.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/toolkit/styles/toolkit.css.map" afterPath="$PROJECT_DIR$/build/toolkit/styles/toolkit.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build-and-move.bat" afterPath="$PROJECT_DIR$/build-and-move.bat" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -95,7 +91,7 @@
         <entry file="file://$PROJECT_DIR$/build-and-move.bat">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
-              <caret line="2" column="94" lean-forward="false" selection-start-line="2" selection-start-column="94" selection-end-line="2" selection-end-column="94" />
+              <caret line="4" column="94" lean-forward="false" selection-start-line="4" selection-start-column="94" selection-end-line="4" selection-end-column="94" />
               <folding />
             </state>
           </provider>
@@ -725,15 +721,16 @@
       <workItem from="1502393926359" duration="1826000" />
       <workItem from="1503818891431" duration="258000" />
       <workItem from="1504202060028" duration="4830000" />
-      <workItem from="1504293249789" duration="4744000" />
+      <workItem from="1504293249789" duration="5988000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37224000" />
+    <option name="totallyTimeSpent" value="38468000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="756" y="0" width="1131" height="1047" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28270814" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1066,7 +1063,7 @@
     <entry file="file://$PROJECT_DIR$/build-and-move.bat">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" column="94" lean-forward="false" selection-start-line="2" selection-start-column="94" selection-end-line="2" selection-end-column="94" />
+          <caret line="4" column="94" lean-forward="false" selection-start-line="4" selection-start-column="94" selection-end-line="4" selection-end-column="94" />
           <folding />
         </state>
       </provider>
