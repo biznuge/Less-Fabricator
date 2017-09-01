@@ -1,0 +1,111 @@
+.App {
+  /*text-align: center;*/
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes spinner {
+  to {transform: rotate(360deg);}
+}
+
+
+/* https://stephanwagner.me/only-css-loading-spinner */
+/* thanks Stephan */
+.spinner:before {
+  content: '';
+  box-sizing: border-box;
+  position: absolute;
+  top: 25px;
+  left: 50%;
+  width: 50px;
+  height: 50px;
+  margin-top: -25px;
+  margin-left: -25px;
+  border-radius: 50%;
+  border: 3px solid #ccc;
+  border-top-color: #07d;
+  animation: spinner .6s linear infinite;
+}
+.loader{
+  padding:30px 0;
+  background-color:#ededed;
+}
+.loader strong{
+  font-size:1.6em;
+}
+.loader br{
+  clear:both;
+  line-height:0;
+}
+.loader p{
+  padding:0;
+}
+.position-holder{
+  width: 100%;
+  text-align: center;
+  margin-bottom: 2.8em;
+  display: block;
+}
+.position-holder .position-heading{
+  width:100%;
+  display: block;
+  font-size:4em;
+}
+.position-holder .position-text{
+  width:100%;
+  display: block;
+}
+.position-text-medium{
+  font-size:1.25em;
+}
+.cell h2{
+  width:100%;
+  text-align:center;
+  padding-bottom:1em;
+}
+table.accompanying{
+  margin: 1.6em auto;
+  border-collapse: collapse;
+  font-family: Arial, Helvetica, sans-serif;
+  min-width:300px;
+}
+.accompanying th, .accompanying td {
+  padding: 6px 10px;
+  text-align: center;
+  border-top:solid 1px #ededed;
+  border-bottom:solid 1px #ededed;
+}
+.testResultsHeading{
+  width:100%;
+  text-align: center;
+  font-size:3em;
+  padding:1.4em 0;
+}
+.testResultsHeading .label {
+  padding: .2em .6em .3em;
+  margin: 0 0.4em 0 0;
+  font-size: 0.75em;
+}
+.testResultsHeading .testResultsText{
+  margin: 0 0.4em 0 0;
+}
+
