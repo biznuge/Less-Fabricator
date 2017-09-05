@@ -6437,10 +6437,18 @@ button.close {
   text-align: center;
   padding-bottom: 1em;
 }
+.AbstractionList li > span.absUrl {
+  padding-left: 10px;
+}
+.AbstractionList {
+  padding-left: 10px;
+  list-style: none;
+}
 table.accompanying {
   margin: 1.6em auto;
   border-collapse: collapse;
   min-width: 300px;
+  max-width: 100%;
 }
 .accompanying th,
 .accompanying td {
@@ -6463,12 +6471,11 @@ table.accompanying {
 .testResultsHeading .testResultsText {
   margin: 0 0.4em 0 0;
 }
-.AbstractionList li > span.absUrl {
-  padding-left: 10px;
+.accompanying .leftAlign {
+  text-align: left;
 }
-.AbstractionList {
-  padding-left: 10px;
-  list-style: none;
+.accompanying .breakLongText {
+  word-break: break-all;
 }
 
 /*# sourceMappingURL=toolkit.css.map */
