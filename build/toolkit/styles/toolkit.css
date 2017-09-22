@@ -6370,50 +6370,6 @@ button.close {
 .App-intro {
   font-size: large;
 }
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-@keyframes spinner {
-  to {
-    transform: rotate(360deg);
-  }
-}
-/* https://stephanwagner.me/only-css-loading-spinner */
-/* thanks Stephan */
-.spinner:before {
-  content: '';
-  box-sizing: border-box;
-  position: absolute;
-  top: 25px;
-  left: 50%;
-  width: 50px;
-  height: 50px;
-  margin-top: -25px;
-  margin-left: -25px;
-  border-radius: 50%;
-  border: 3px solid #ccc;
-  border-top-color: #07d;
-  animation: spinner .6s linear infinite;
-}
-.loader {
-  padding: 30px 0;
-  background-color: #ededed;
-}
-.loader strong {
-  font-size: 1.6em;
-}
-.loader br {
-  clear: both;
-  line-height: 0;
-}
-.loader p {
-  padding: 0;
-}
 .position-holder {
   width: 100%;
   text-align: center;
@@ -6423,11 +6379,12 @@ button.close {
 .position-holder .position-heading {
   width: 100%;
   display: block;
-  font-size: 4em;
+  font-size: 3.4em;
 }
 .position-holder .position-text {
   width: 100%;
   display: block;
+  color: #888;
 }
 .position-text-medium {
   font-size: 1.25em;
@@ -6476,6 +6433,75 @@ table.accompanying {
 }
 .accompanying .breakLongText {
   word-break: break-all;
+}
+.navbar {
+  margin-bottom: 0 !important;
+}
+footer {
+  clear: both;
+  padding-top: 50px;
+}
+footer > div {
+  background-color: #222222;
+  padding: 30px;
+}
+footer dl {
+  text-align: center;
+  color: #FFFFFF;
+}
+footer dl a {
+  color: #FFFFFF;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes spinner {
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* https://stephanwagner.me/only-css-loading-spinner */
+/* thanks Stephan */
+.spinner:before {
+  content: '';
+  box-sizing: border-box;
+  position: absolute;
+  top: 25px;
+  left: 50%;
+  width: 50px;
+  height: 50px;
+  margin-top: -25px;
+  margin-left: -25px;
+  border-radius: 50%;
+  border: 3px solid #ccc;
+  border-top-color: #07d;
+  animation: spinner .6s linear infinite;
+}
+.loader {
+  padding: 30px 0;
+  background-color: #ededed;
+  transition: height 1s;
+}
+.loader strong {
+  font-size: 1.6em;
+}
+.loader br {
+  clear: both;
+  line-height: 0;
+}
+.loader p {
+  padding: 0;
+}
+.loader.dismiss {
+  height: 0;
+}
+.loader .dismiss {
+  height: 0;
 }
 
 /*# sourceMappingURL=toolkit.css.map */
