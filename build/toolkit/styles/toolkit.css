@@ -6434,6 +6434,9 @@ table.accompanying {
 .accompanying .breakLongText {
   word-break: break-all;
 }
+.accompanying .glyphicon-link {
+  margin-left: 6px;
+}
 .navbar {
   margin-bottom: 0 !important;
 }
