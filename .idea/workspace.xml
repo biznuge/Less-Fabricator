@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b3ce8ed-b4dd-4b48-93ac-930c59f6552a" name="Default" comment="ensuring bootstrap is committed so we don't overwrite this.">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-less/bootstrap/whitespace/actions.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-less/bootstrap/whitespace/listPage.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap-less/bootstrap/whitespace/tables.less" afterPath="$PROJECT_DIR$/bootstrap-less/bootstrap/whitespace/tables.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap-less/bootstrap/bootstrap.less" afterPath="$PROJECT_DIR$/bootstrap-less/bootstrap/bootstrap.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/toolkit/styles/toolkit.css" afterPath="$PROJECT_DIR$/build/toolkit/styles/toolkit.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/toolkit/styles/toolkit.css.map" afterPath="$PROJECT_DIR$/build/toolkit/styles/toolkit.css.map" />
     </list>
@@ -20,26 +22,6 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="vendor-scripts.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/recipes/vendor-scripts.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1003">
-              <caret line="59" column="3" lean-forward="false" selection-start-line="59" selection-start-column="3" selection-end-line="59" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="abstractionlist.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bootstrap-less/bootstrap/whitespace/abstractionlist.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="variables.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bootstrap-less/bootstrap/variables.less">
           <provider selected="true" editor-type-id="text-editor">
@@ -54,7 +36,7 @@
         <entry file="file://$PROJECT_DIR$/bootstrap-less/bootstrap/whitespace/app.less">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="629">
-              <caret line="37" column="1" lean-forward="true" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
+              <caret line="37" column="1" lean-forward="false" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -70,11 +52,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tables.less" pinned="false" current-in-tab="true">
+      <file leaf-file-name="tables.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bootstrap-less/bootstrap/whitespace/tables.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="39" column="19" lean-forward="false" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
+            <state relative-caret-position="442">
+              <caret line="26" column="1" lean-forward="false" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="actions.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bootstrap-less/bootstrap/whitespace/actions.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="19" lean-forward="false" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="listPage.less" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bootstrap-less/bootstrap/whitespace/listPage.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -103,8 +105,8 @@
       <file leaf-file-name="bootstrap.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bootstrap-less/bootstrap/bootstrap.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="969">
-              <caret line="57" column="26" lean-forward="false" selection-start-line="57" selection-start-column="26" selection-end-line="57" selection-end-column="26" />
+            <state relative-caret-position="426">
+              <caret line="59" column="35" lean-forward="false" selection-start-line="59" selection-start-column="35" selection-end-line="59" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -198,10 +200,12 @@
         <option value="$PROJECT_DIR$/bootstrap-less/bootstrap/whitespace/abstractionlist.less" />
         <option value="$PROJECT_DIR$/bootstrap-less/bootstrap/whitespace/overrides.less" />
         <option value="$PROJECT_DIR$/bootstrap-less/bootstrap/whitespace/footer.less" />
-        <option value="$PROJECT_DIR$/bootstrap-less/bootstrap/bootstrap.less" />
         <option value="$PROJECT_DIR$/bootstrap-less/bootstrap/whitespace/loader.less" />
         <option value="$PROJECT_DIR$/bootstrap-less/bootstrap/whitespace/app.less" />
         <option value="$PROJECT_DIR$/bootstrap-less/bootstrap/whitespace/tables.less" />
+        <option value="$PROJECT_DIR$/bootstrap-less/bootstrap/whitespace/actions.less" />
+        <option value="$PROJECT_DIR$/bootstrap-less/bootstrap/bootstrap.less" />
+        <option value="$PROJECT_DIR$/bootstrap-less/bootstrap/whitespace/listPage.less" />
       </list>
     </option>
   </component>
@@ -414,6 +418,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -634,7 +639,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -767,12 +771,14 @@
       <workItem from="1505636930887" duration="1127000" />
       <workItem from="1505936858949" duration="607000" />
       <workItem from="1506032109450" duration="1396000" />
-      <workItem from="1506108546898" duration="277000" />
+      <workItem from="1506108546898" duration="870000" />
+      <workItem from="1506455956870" duration="1506000" />
+      <workItem from="1506894859220" duration="1559000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52848000" />
+    <option name="totallyTimeSpent" value="56506000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="756" y="0" width="1131" height="1047" extended-state="0" />
@@ -809,20 +815,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/node_modules/bootstrap-less/js/bootstrap.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="77" lean-forward="true" selection-start-line="27" selection-start-column="77" selection-end-line="27" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bootstrap/styles/bootstrap.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/fabricator/scripts/fabricator.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3196">
@@ -1086,7 +1078,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1003">
           <caret line="59" column="3" lean-forward="false" selection-start-line="59" selection-start-column="3" selection-end-line="59" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1130,14 +1121,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bootstrap-less/bootstrap/bootstrap.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="969">
-          <caret line="57" column="26" lean-forward="false" selection-start-line="57" selection-start-column="26" selection-end-line="57" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bootstrap-less/bootstrap/whitespace/loader.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="935">
@@ -1149,15 +1132,39 @@
     <entry file="file://$PROJECT_DIR$/bootstrap-less/bootstrap/whitespace/app.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="629">
-          <caret line="37" column="1" lean-forward="true" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
+          <caret line="37" column="1" lean-forward="false" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bootstrap-less/bootstrap/whitespace/tables.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="39" column="19" lean-forward="false" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
+        <state relative-caret-position="442">
+          <caret line="26" column="1" lean-forward="false" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrap-less/bootstrap/whitespace/actions.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="19" lean-forward="false" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrap-less/bootstrap/bootstrap.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="59" column="35" lean-forward="false" selection-start-line="59" selection-start-column="35" selection-end-line="59" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrap-less/bootstrap/whitespace/listPage.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
           <folding />
         </state>
       </provider>
