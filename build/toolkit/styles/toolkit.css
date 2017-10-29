@@ -6407,12 +6407,21 @@ table.accompanying {
   min-width: 300px;
   max-width: 100%;
 }
+.accompanying tr {
+  /*border-top:solid 1px #ededed;*/
+  border-bottom: solid 1px #ededed;
+}
+.accompanying tr:hover {
+  background-color: #EEE;
+}
+.accompanying tr:last-child {
+  /*border-top:solid 1px #ededed;*/
+  border-bottom: none;
+}
 .accompanying th,
 .accompanying td {
   padding: 6px 10px;
   text-align: center;
-  border-top: solid 1px #ededed;
-  border-bottom: solid 1px #ededed;
 }
 .testResultsHeading {
   width: 100%;
@@ -6455,56 +6464,91 @@ footer dl {
 footer dl a {
   color: #FFFFFF;
 }
+/*
+.loader{
+  padding:30px 0;
+  background-color:#ededed;
+  transition: height 1s;
+
+}
+
 @keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
 }
+
 @keyframes spinner {
-  to {
-    transform: rotate(360deg);
-  }
+  to {transform: rotate(360deg);}
 }
-/* https://stephanwagner.me/only-css-loading-spinner */
-/* thanks Stephan */
+
+
 .spinner:before {
   content: '';
   box-sizing: border-box;
-  position: absolute;
-  top: 25px;
-  left: 50%;
-  width: 50px;
-  height: 50px;
-  margin-top: -25px;
-  margin-left: -25px;
+  width: 30px;
+  height: 30px;
+  margin-left: 15px;
+  margin-right: 15px;
   border-radius: 50%;
   border: 3px solid #ccc;
   border-top-color: #07d;
   animation: spinner .6s linear infinite;
+  display: inline-block;
 }
+
+
+.loader strong{
+  font-size:2.0em;
+}
+.loader br{
+  clear:both;
+  line-height:0;
+}
+*/
 .loader {
-  padding: 30px 0;
-  background-color: #ededed;
-  transition: height 1s;
+  height: 4px;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  background-color: #ddd;
 }
-.loader strong {
-  font-size: 1.6em;
+.loader:before {
+  display: block;
+  position: absolute;
+  content: "";
+  left: -200px;
+  width: 200px;
+  height: 4px;
+  background-color: #2980b9;
+  animation: loading 2s linear infinite;
+  opacity: 1;
+  transition: opacity 0.25s ease-in-out;
+  -moz-transition: opacity 0.25s ease-in-out;
+  -webkit-transition: opacity 0.25s ease-in-out;
 }
-.loader br {
-  clear: both;
-  line-height: 0;
+@keyframes loading {
+  from {
+    left: -200px;
+    width: 30%;
+  }
+  50% {
+    width: 30%;
+  }
+  70% {
+    width: 70%;
+  }
+  80% {
+    left: 50%;
+  }
+  95% {
+    left: 120%;
+  }
+  to {
+    left: 100%;
+  }
 }
-.loader p {
-  padding: 0;
-}
-.loader.dismiss {
-  height: 0;
-}
-.loader .dismiss {
-  height: 0;
+.loader.dismiss:before {
+  opacity: 0;
 }
 .actions {
   clear: both;
@@ -6546,6 +6590,11 @@ footer dl a {
 .accompanying td {
   padding: 12px 10px;
   border: none;
+}
+.standard-page {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /*# sourceMappingURL=toolkit.css.map */
