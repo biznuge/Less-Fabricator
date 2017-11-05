@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b3ce8ed-b4dd-4b48-93ac-930c59f6552a" name="Default" comment="ensuring bootstrap is committed so we don't overwrite this.">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-less/bootstrap/whitespace/body.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-less/bootstrap/whitespace/header.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap-less/bootstrap/bootstrap.less" afterPath="$PROJECT_DIR$/bootstrap-less/bootstrap/bootstrap.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap-less/bootstrap/whitespace/loader.less" afterPath="$PROJECT_DIR$/bootstrap-less/bootstrap/whitespace/loader.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap-less/bootstrap/whitespace/tables.less" afterPath="$PROJECT_DIR$/bootstrap-less/bootstrap/whitespace/tables.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/toolkit/styles/toolkit.css" afterPath="$PROJECT_DIR$/build/toolkit/styles/toolkit.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/toolkit/styles/toolkit.css.map" afterPath="$PROJECT_DIR$/build/toolkit/styles/toolkit.css.map" />
     </list>
@@ -23,21 +21,63 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="app.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bootstrap-less/bootstrap/whitespace/app.less">
+      <file leaf-file-name="loader.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bootstrap-less/bootstrap/whitespace/loader.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="37" column="1" lean-forward="false" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
+            <state relative-caret-position="1105">
+              <caret line="65" column="47" lean-forward="false" selection-start-line="63" selection-start-column="2" selection-end-line="65" selection-end-column="47" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="loader.less" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/bootstrap-less/bootstrap/whitespace/loader.less">
+      <file leaf-file-name="header.less" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bootstrap-less/bootstrap/whitespace/header.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="80" column="12" lean-forward="false" selection-start-line="80" selection-start-column="12" selection-end-line="80" selection-end-column="12" />
+            <state relative-caret-position="119">
+              <caret line="7" column="24" lean-forward="false" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="input-groups.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bootstrap-less/bootstrap/input-groups.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="toolkit.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build/toolkit/styles/toolkit.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="112302">
+              <caret line="6606" column="1" lean-forward="false" selection-start-line="6598" selection-start-column="0" selection-end-line="6606" selection-end-column="1" />
+              <folding>
+                <marker date="1509579337330" expanded="true" signature="141276:141280" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="grid.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bootstrap-less/bootstrap/grid.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="variables.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bootstrap-less/bootstrap/variables.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4879">
+              <caret line="287" column="90" lean-forward="false" selection-start-line="287" selection-start-column="84" selection-end-line="287" selection-end-column="90" />
               <folding />
             </state>
           </provider>
@@ -63,16 +103,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="actions.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bootstrap-less/bootstrap/whitespace/actions.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="19" lean-forward="false" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="listPage.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bootstrap-less/bootstrap/whitespace/listPage.less">
           <provider selected="true" editor-type-id="text-editor">
@@ -83,41 +113,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="overrides.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bootstrap-less/bootstrap/whitespace/overrides.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="footer.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bootstrap-less/bootstrap/whitespace/footer.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="20" lean-forward="false" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="bootstrap.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bootstrap-less/bootstrap/bootstrap.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1020">
-              <caret line="60" column="24" lean-forward="false" selection-start-line="60" selection-start-column="24" selection-end-line="60" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gulpfile.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="374">
+              <caret line="22" column="11" lean-forward="false" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -160,6 +160,8 @@
       <find>karl</find>
       <find>karla</find>
       <find>font-f</find>
+      <find>navbar-form</find>
+      <find>screen</find>
     </findStrings>
     <dirStrings>
       <dir>D:\projects\FABRICATOR\Less-Fabricator</dir>
@@ -205,9 +207,11 @@
         <option value="$PROJECT_DIR$/bootstrap-less/bootstrap/whitespace/actions.less" />
         <option value="$PROJECT_DIR$/bootstrap-less/bootstrap/whitespace/listPage.less" />
         <option value="$PROJECT_DIR$/bootstrap-less/bootstrap/whitespace/tables.less" />
-        <option value="$PROJECT_DIR$/bootstrap-less/bootstrap/bootstrap.less" />
         <option value="$PROJECT_DIR$/bootstrap-less/bootstrap/whitespace/body.less" />
         <option value="$PROJECT_DIR$/bootstrap-less/bootstrap/whitespace/loader.less" />
+        <option value="$PROJECT_DIR$/bootstrap-less/bootstrap/bootstrap.less" />
+        <option value="$PROJECT_DIR$/build/toolkit/styles/toolkit.css" />
+        <option value="$PROJECT_DIR$/bootstrap-less/bootstrap/whitespace/header.less" />
       </list>
     </option>
   </component>
@@ -780,25 +784,27 @@
       <workItem from="1507989534142" duration="1187000" />
       <workItem from="1508582135407" duration="4181000" />
       <workItem from="1509056516922" duration="2593000" />
+      <workItem from="1509402853516" duration="1589000" />
+      <workItem from="1509571504157" duration="5252000" />
+      <workItem from="1509629561243" duration="606000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66303000" />
+    <option name="totallyTimeSpent" value="73750000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="756" y="0" width="1131" height="1047" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28270814" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32932165" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32932165" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -821,27 +827,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/fabricator/styles/fabricator.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/toolkit/assets/scripts/toolkit.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="23" lean-forward="false" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/bootstrap-less/bootstrap/---bootstrap.---less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/bootstrap-less/bootstrap/mixins/alerts.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -988,13 +973,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build/toolkit/styles/toolkit.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="4" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/bootstrap/scripts/bootstrap.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -1087,18 +1065,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bootstrap-less/bootstrap/variables.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1106,7 +1076,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1114,7 +1083,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="20" lean-forward="false" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1122,7 +1090,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="629">
           <caret line="37" column="1" lean-forward="false" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1130,7 +1097,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="19" lean-forward="false" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1150,14 +1116,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bootstrap-less/bootstrap/bootstrap.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="60" column="24" lean-forward="false" selection-start-line="60" selection-start-column="24" selection-end-line="60" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bootstrap-less/bootstrap/whitespace/body.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -1166,10 +1124,60 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/build/toolkit/styles/toolkit.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112302">
+          <caret line="6606" column="1" lean-forward="false" selection-start-line="6598" selection-start-column="0" selection-end-line="6606" selection-end-column="1" />
+          <folding>
+            <marker date="1509579337330" expanded="true" signature="141276:141280" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrap-less/bootstrap/input-groups.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrap-less/bootstrap/bootstrap.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="11" lean-forward="false" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrap-less/bootstrap/grid.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrap-less/bootstrap/variables.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4879">
+          <caret line="287" column="90" lean-forward="false" selection-start-line="287" selection-start-column="84" selection-end-line="287" selection-end-column="90" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/bootstrap-less/bootstrap/whitespace/loader.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="80" column="12" lean-forward="false" selection-start-line="80" selection-start-column="12" selection-end-line="80" selection-end-column="12" />
+        <state relative-caret-position="1105">
+          <caret line="65" column="47" lean-forward="false" selection-start-line="63" selection-start-column="2" selection-end-line="65" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrap-less/bootstrap/whitespace/header.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="24" lean-forward="false" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
           <folding />
         </state>
       </provider>
