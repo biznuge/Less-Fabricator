@@ -6596,6 +6596,9 @@ footer dl a {
   margin-left: auto;
   margin-right: auto;
 }
+.text-lead-in {
+  font-size: 1.2em;
+}
 @media (min-width: 767px) {
   .navbar {
     padding: 12px;
