@@ -6629,5 +6629,10 @@ footer dl a {
   border-bottom-right-radius: 3px;
   border-top-right-radius: 3px;
 }
+.input-group-home {
+  width: 100% !important;
+  max-width: 100% !important;
+  font-size: 1.2em;
+}
 
 /*# sourceMappingURL=toolkit.css.map */
