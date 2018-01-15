@@ -1242,7 +1242,7 @@ dt {
 dd {
   margin-left: 0;
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .dl-horizontal dt {
     float: left;
     width: 160px;
@@ -3326,7 +3326,7 @@ tbody.collapse.in {
   bottom: 100%;
   margin-bottom: 2px;
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .navbar-right .dropdown-menu {
     left: auto;
     right: 0;
@@ -3858,12 +3858,12 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   margin-bottom: 21px;
   border: 1px solid transparent;
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .navbar {
     border-radius: 0;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .navbar-header {
     float: left;
   }
@@ -3879,7 +3879,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-collapse.in {
   overflow-y: auto;
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .navbar-collapse {
     width: auto;
     border-top: 0;
@@ -3919,7 +3919,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   margin-right: -15px;
   margin-left: -15px;
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .container > .navbar-header,
   .container-fluid > .navbar-header,
   .container > .navbar-collapse,
@@ -3932,7 +3932,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   z-index: 1000;
   border-width: 0 0 1px;
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .navbar-static-top {
     border-radius: 0;
   }
@@ -3944,7 +3944,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   left: 0;
   z-index: 1030;
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .navbar-fixed-top,
   .navbar-fixed-bottom {
     border-radius: 0;
@@ -3973,7 +3973,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-brand > img {
   display: block;
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .navbar > .container .navbar-brand,
   .navbar > .container-fluid .navbar-brand {
     margin-left: -15px;
@@ -4003,7 +4003,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-toggle .icon-bar + .icon-bar {
   margin-top: 4px;
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .navbar-toggle {
     display: none;
   }
@@ -4016,7 +4016,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   padding-bottom: 10px;
   line-height: 21px;
 }
-@media (max-width: 767px) {
+@media (max-width: 991px) {
   .navbar-nav .open .dropdown-menu {
     position: static;
     float: none;
@@ -4038,7 +4038,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     background-image: none;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .navbar-nav {
     float: left;
     margin: 0;
@@ -4112,7 +4112,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     top: 0;
   }
 }
-@media (max-width: 767px) {
+@media (max-width: 991px) {
   .navbar-form .form-group {
     margin-bottom: 5px;
   }
@@ -4120,7 +4120,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     margin-bottom: 0;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .navbar-form {
     width: auto;
     border: 0;
@@ -4160,14 +4160,14 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   margin-top: 12px;
   margin-bottom: 12px;
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .navbar-text {
     float: left;
     margin-left: 15px;
     margin-right: 15px;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .navbar-left {
     float: left !important;
   }
@@ -4234,7 +4234,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   background-color: #272727;
   color: #fff;
 }
-@media (max-width: 767px) {
+@media (max-width: 991px) {
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
     color: #fff;
   }
@@ -4330,7 +4330,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   background-color: #006687;
   color: #fff;
 }
-@media (max-width: 767px) {
+@media (max-width: 991px) {
   .navbar-inverse .navbar-nav .open .dropdown-menu > .dropdown-header {
     border-color: #006687;
   }
@@ -6464,6 +6464,17 @@ footer dl {
 footer dl a {
   color: #FFFFFF;
 }
+.copyright {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  float: right;
+  color: #CCC;
+}
+@media (max-width: 992px) {
+  .copyright {
+    float: left;
+  }
+}
 /*
 .loader{
   padding:30px 0;
@@ -6601,7 +6612,7 @@ footer dl a {
 }
 @media (min-width: 767px) {
   .navbar {
-    padding: 12px;
+    padding: 12px 0 12px 12px;
   }
   .navbar-brand {
     font-size: 1.8em;
@@ -6610,8 +6621,9 @@ footer dl a {
 }
 @media (min-width: 767px) {
   .input-group {
-    max-width: 400px;
-    float: right;
+    /*max-width: 340px;*/
+    width: inherit;
+    /*float: right;*/
   }
 }
 .input-group .form-control {
@@ -6633,6 +6645,79 @@ footer dl a {
   width: 100% !important;
   max-width: 100% !important;
   font-size: 1.2em;
+}
+.input-group-header {
+  width: 380px !important;
+  max-width: 380px !important;
+  font-size: 1.2em;
+  float: right;
+  margin-top: 3px;
+}
+.cleaner {
+  clear: both;
+  padding: 1em;
+  line-height: 2em;
+  display: block;
+  border-top: 0 !important;
+}
+.bodyTextLrg {
+  font-size: 1.25em;
+  line-height: 1.5em;
+}
+.mathematics {
+  font-family: 'Roboto Mono', monospace;
+  border: #FFC50D 1px solid;
+  background-color: #FFDC8D;
+  padding: 10px;
+}
+.cookieInner {
+  font-size: 1.4em;
+  padding: 16px;
+}
+@-webkit-keyframes MOVE-BG {
+  from {
+    -webkit-transform: translateX(0);
+  }
+  to {
+    -webkit-transform: translateX(46px);
+  }
+}
+@keyframes MOVE-BG {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(46px);
+  }
+}
+.loading {
+  height: auto;
+  text-align: center;
+  color: #4c3f2e;
+  position: relative;
+  overflow: hidden;
+  padding: 1rem;
+  padding-top: 18px;
+  font-style: italic;
+}
+.cookieInner .bg {
+  position: absolute;
+  left: -46px;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+  opacity: 0.5;
+  background: -webkit-repeating-linear-gradient(145deg, #e8f8ff 1px, #baeaff 2px, #baeaff 11px, #e8f8ff 12px, #e8f8ff 20px);
+  background: repeating-linear-gradient(-55deg, #e8f8ff 1px, #baeaff 2px, #baeaff 11px, #e8f8ff 12px, #e8f8ff 20px);
+  -webkit-animation-name: MOVE-BG;
+  -webkit-animation-duration: .6s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: MOVE-BG;
+  animation-duration: .6s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
 }
 
 /*# sourceMappingURL=toolkit.css.map */
