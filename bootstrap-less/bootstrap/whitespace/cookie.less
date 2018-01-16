@@ -2,6 +2,27 @@
   font-size:1.4em;
   padding:16px;
 
+  .btn{
+    font-size:1em;
+    border-radius: 5px;
+  }
+
+  p{
+    font-weight:700;
+    font-style: normal;
+
+    a{
+      color: #052300;
+      font-weight: bold;
+      text-decoration: underline;
+    }
+    a:hover{
+
+      text-decoration-style: dashed;
+    }
+
+  }
+
 }
 
 @-webkit-keyframes MOVE-BG {
@@ -9,7 +30,7 @@
     -webkit-transform: translateX(0);
   }
   to {
-    -webkit-transform: translateX(46px);
+    -webkit-transform: translateX(23px);
   }
 }
 
@@ -18,7 +39,7 @@
     transform: translateX(0);
   }
   to {
-    transform: translateX(46px);
+    transform: translateX(23px);
   }
 }
 
@@ -32,6 +53,7 @@
   padding: 1rem;
   padding-top: 18px;
   font-style: italic;
+  font-size: 1.5em;
 }
 
 .cookieInner .bg{
@@ -45,28 +67,28 @@
 
   background: -webkit-repeating-linear-gradient(
           145deg,
-          #e8f8ff 1px,
-          #baeaff 2px,
-          #baeaff 11px,
-          #e8f8ff 12px,
-          #e8f8ff 20px
+          #43AC6A 1px,
+          #aaffca 2px,
+          #aaffca 11px,
+          #43AC6A 12px,
+          #43AC6A 20px
   );
   background: repeating-linear-gradient(
           -55deg,
-          #e8f8ff 1px,
-          #baeaff 2px,
-          #baeaff 11px,
-          #e8f8ff 12px,
-          #e8f8ff 20px
+          #43AC6A 1px,
+          #aaffca 2px,
+          #aaffca 11px,
+          #43AC6A 12px,
+          #43AC6A 20px
   );
 
   -webkit-animation-name: MOVE-BG;
-  -webkit-animation-duration: .6s;
+  -webkit-animation-duration: 2s;
   -webkit-animation-timing-function: linear;
   -webkit-animation-iteration-count: infinite;
 
   animation-name: MOVE-BG;
-  animation-duration: .6s;
+  animation-duration: 2s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
 }
