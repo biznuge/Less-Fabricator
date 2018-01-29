@@ -1,0 +1,153 @@
+
+.timelineHeader{
+  clear:both;
+
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+  flex-wrap: wrap;
+  position:relative;
+
+  background-color: rgba(195, 195, 195, 0.20);
+
+}
+
+.timelineHeader:before {
+  content: '';
+  position: absolute;
+  top: 42%;
+  left: 0;
+  border-top: 4px solid #CCC;
+  /*background: #AAA;*/
+  width: 100%;
+  transform: translateY(-50%);
+}
+
+/*.timelineHeader:after {
+    content: '{{ enclosure.id }}||{{ historyShortlist.prevId }}||{{ historyShortlist.nextId }}';
+    position: absolute;
+    bottom:0;
+    left: 0;
+    color: #AAA;
+    font-size: 1.6em;
+}*/
+
+/*.historyLine{
+    width:100%;
+    z-index:-10;
+    background-color: #999999;
+    display:block;
+    height:20px;
+    position:absolute;
+    top:40px;
+    left:0;
+
+}*/
+
+.historyEntry{
+  margin:0;
+  padding:0;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  position:relative;
+}
+
+.historyEntry.current{
+
+}
+
+.historyEnd{
+  margin:0;
+  padding:0;
+  display: flex;
+  flex-direction: column;
+}
+
+.percentageHolder, .timeHolder{
+  display:block;
+  align-content: center;
+}
+
+.timeHolder{
+  color:#666;
+}
+
+.historyEntry.current .percentageHolder{
+  display:block;
+  align-content: center;
+}
+
+
+
+.historyEntry a{
+  display:block;
+  padding-top:20px;
+  padding-bottom:20px;
+  text-decoration: none;
+}
+
+
+
+.historyEntry a:hover{
+}
+
+.historyEntry a:hover span.percentage{
+  transform: scale(1.1);
+}
+
+
+.historyEntry a span.percentage {
+  display: block;
+  height: 60px;
+  width: 60px;
+  line-height: 60px;
+  -moz-border-radius: 30px; /* or 50% */
+  border-radius: 30px; /* or 50% */
+  background-color: #AAA;
+  color: white;
+  text-align: center;
+  font-size: 2em;
+  transition: all .2s ease-in-out;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.historyEntry a:hover span.percentage {
+  background-color: #777;
+}
+
+.historyEntry.current span.percentage {
+  background-color: #333;
+}
+
+
+
+
+/* ****************** */
+/* small historyEntries for the prev/next btns. */
+
+/*.historyEntry.sml a{
+    font-size: 1.4em;
+}*/
+
+.historyEntry.sml a span.percentage {
+  display: block;
+  height: 40px;
+  width: 40px;
+  margin-top:10px;
+  line-height: 40px;
+  -moz-border-radius: 20px; /* or 50% */
+  border-radius: 20px; /* or 50% */
+  background-color: #AAA;
+  color: white;
+  text-align: center;
+  font-size: 2em;
+  transition: all .2s ease-in-out;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ****************** */
+
