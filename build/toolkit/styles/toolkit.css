@@ -6406,6 +6406,7 @@ table.accompanying {
   border-collapse: collapse;
   min-width: 300px;
   max-width: 100%;
+  width: 100%;
 }
 .accompanying tr {
   /*border-top:solid 1px #ededed;*/
@@ -6669,6 +6670,15 @@ footer dl a {
   border: #FFC50D 1px solid;
   background-color: #FFDC8D;
   padding: 10px;
+}
+.leftAlign {
+  text-align: left;
+}
+.rightAlign {
+  text-align: right;
+}
+.centreAlign {
+  text-align: center;
 }
 .cookieInner {
   font-size: 1.4em;
