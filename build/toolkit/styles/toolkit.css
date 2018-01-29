@@ -6885,6 +6885,10 @@ footer dl a {
   margin-right: auto;
 }
 /* ****************** */
+#app.passive > .appActive,
+#app.active > .appPassive {
+  display: none;
+}
 .titleHost {
   font-size: 1.4em;
   clear: both;
