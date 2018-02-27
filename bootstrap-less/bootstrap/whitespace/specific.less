@@ -14,6 +14,33 @@
 
 
 
+// Uncollapse the nav
+@media (min-width: @grid-float-breakpoint) {
+  .input-group-header{
+    margin-top: 18px;
+    margin-right: 10px;
+  }
+}
+
+@media (max-width: @grid-float-breakpoint) {
+  .input-group-header{
+    float: left;
+    margin-bottom: 16px;
+  }
+  .navbar-default .navbar-collapse{
+    border-color:transparent;
+  }
+
+  .navbar-collapse{
+    box-shadow: none;
+  }
+}
+
+
+
+
+
+
 .cleaner{
    clear:both;
    padding:1em;
