@@ -6662,6 +6662,9 @@ footer dl a {
   border-bottom-right-radius: 3px;
   border-top-right-radius: 3px;
 }
+.navbar-header {
+  height: 80px;
+}
 .input-group-home {
   width: 100% !important;
   max-width: 100% !important;
@@ -6801,6 +6804,9 @@ footer dl a {
 }
 .home-container {
   margin-bottom: 32px;
+}
+.us-top-pad {
+  padding-top: 24px;
 }
 .timelineHeader {
   clear: both;
