@@ -6640,6 +6640,22 @@ footer dl a {
     font-size:1.2em;
   }
 }*/
+@media (min-width: 992px) {
+  .skinny-logo {
+    display: none !important;
+  }
+  .navbar-header {
+    height: 80px;
+  }
+}
+@media (max-width: 992px) {
+  .logo {
+    display: none !important;
+  }
+  .navbar-header {
+    height: 60px;
+  }
+}
 @media (min-width: 767px) {
   .input-group {
     /*max-width: 340px;*/
@@ -6661,9 +6677,6 @@ footer dl a {
 .input-group .input-group-btn .btn {
   border-bottom-right-radius: 3px;
   border-top-right-radius: 3px;
-}
-.navbar-header {
-  height: 80px;
 }
 .input-group-home {
   width: 100% !important;
