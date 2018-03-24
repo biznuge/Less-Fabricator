@@ -28,3 +28,71 @@
 .us-top-pad{
   padding-top: 24px;
 }
+
+
+
+/* homepage image/text bits. spilling on my samsung 6 */
+
+
+@media (max-width: @screen-sm) {
+
+  .media{
+    text-align: center;
+    .media-left{
+      width:100%;
+      display: block;
+      text-align: center;
+      img{
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+
+      }
+    }
+    .media-body{
+      h2{
+        margin-top:0;
+      }
+    }
+  }
+
+
+  .home-intro{
+    margin-bottom:40px !important;
+  }
+
+  .home-container{
+    margin-bottom: 0;
+    text-align:center;
+  }
+  .homepage-pane{
+    margin-bottom:40px;
+  }
+}
+
+
+@media (max-width: @screen-md) {
+
+  .home-intro{
+    margin-bottom:40px !important;
+  }
+
+  .home-container{
+    margin-bottom: 0;
+  }
+  .homepage-pane{
+    margin-bottom:20px;
+  }
+}
+
+@media (min-width: @screen-md) {
+
+  .home-intro{
+    h2{
+      font-size:2.4em;
+    }
+    p{
+      font-size:1.6em;
+    }
+  }
+}
