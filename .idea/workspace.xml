@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b3ce8ed-b4dd-4b48-93ac-930c59f6552a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap-less/bootstrap/whitespace/relatedTests.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap-less/bootstrap/bootstrap.less" afterPath="$PROJECT_DIR$/bootstrap-less/bootstrap/bootstrap.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap-less/bootstrap/whitespace/specific.less" afterPath="$PROJECT_DIR$/bootstrap-less/bootstrap/whitespace/specific.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap-less/bootstrap/whitespace/standardPage.less" afterPath="$PROJECT_DIR$/bootstrap-less/bootstrap/whitespace/standardPage.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/toolkit/styles/toolkit.css" afterPath="$PROJECT_DIR$/build/toolkit/styles/toolkit.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/toolkit/styles/toolkit.css.map" afterPath="$PROJECT_DIR$/build/toolkit/styles/toolkit.css.map" />
     </list>
@@ -32,11 +29,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="specific.less" pinned="false" current-in-tab="true">
+      <file leaf-file-name="specific.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bootstrap-less/bootstrap/whitespace/specific.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="88" column="16" lean-forward="false" selection-start-line="88" selection-start-column="16" selection-end-line="88" selection-end-column="16" />
+            <state relative-caret-position="187">
+              <caret line="78" column="0" lean-forward="true" selection-start-line="78" selection-start-column="0" selection-end-line="84" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="standardPage.less" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bootstrap-less/bootstrap/whitespace/standardPage.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="29" lean-forward="false" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -112,16 +119,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build-and-move.bat" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build-and-move.bat">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -133,12 +130,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>.label</find>
-      <find>c</find>
-      <find>container</find>
-      <find>.container</find>
-      <find>input-group</find>
-      <find>768</find>
       <find>k</find>
       <find>ka</find>
       <find>karla</find>
@@ -152,7 +143,6 @@
       <find>position-holder</find>
       <find>1</find>
       <find>1200</find>
-      <find>standard-body</find>
       <find>\.accompanying tr\:hover\{\n  background\-color\:\#EEE\;</find>
       <find>cleaner</find>
       <find>@font-size-h4</find>
@@ -163,6 +153,13 @@
       <find>navbar-padding</find>
       <find>screen-sm</find>
       <find>380</find>
+      <find>st</find>
+      <find>standa</find>
+      <find>standar</find>
+      <find>standard</find>
+      <find>standard-</find>
+      <find>standard-bo</find>
+      <find>standard-body</find>
     </findStrings>
     <dirStrings>
       <dir>D:\projects\FABRICATOR\Less-Fabricator</dir>
@@ -213,7 +210,6 @@
         <option value="$PROJECT_DIR$/bootstrap-less/bootstrap/whitespace/tables.less" />
         <option value="$PROJECT_DIR$/bootstrap-less/bootstrap/whitespace/app.less" />
         <option value="$PROJECT_DIR$/bootstrap-less/bootstrap/whitespace/historyNav.less" />
-        <option value="$PROJECT_DIR$/bootstrap-less/bootstrap/whitespace/standardPage.less" />
         <option value="$PROJECT_DIR$/bootstrap-less/bootstrap/code.less" />
         <option value="$PROJECT_DIR$/src/bootstrap/styles/darkly.variables.less" />
         <option value="$PROJECT_DIR$/bootstrap-less/bootstrap/variables.less" />
@@ -225,6 +221,7 @@
         <option value="$PROJECT_DIR$/bootstrap-less/bootstrap/whitespace/relatedTests.less" />
         <option value="$PROJECT_DIR$/bootstrap-less/bootstrap/bootstrap.less" />
         <option value="$PROJECT_DIR$/bootstrap-less/bootstrap/whitespace/specific.less" />
+        <option value="$PROJECT_DIR$/bootstrap-less/bootstrap/whitespace/standardPage.less" />
       </list>
     </option>
   </component>
@@ -723,7 +720,7 @@
       <workItem from="1520977251249" duration="1268000" />
       <workItem from="1521589933449" duration="765000" />
       <workItem from="1521675126254" duration="788000" />
-      <workItem from="1521891600785" duration="8915000" />
+      <workItem from="1521891600785" duration="9584000" />
     </task>
     <task id="LOCAL-00001" summary="cosmetics around mobile views. tarted up a little but nothing massive ot be fair.">
       <created>1521895572970</created>
@@ -743,7 +740,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="124374000" />
+    <option name="totallyTimeSpent" value="125043000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="527" y="20" width="1331" height="1006" extended-state="0" />
@@ -1016,13 +1013,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bootstrap-less/bootstrap/whitespace/standardPage.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bootstrap-less/bootstrap/code.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="748">
@@ -1143,8 +1133,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bootstrap-less/bootstrap/whitespace/specific.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="88" column="16" lean-forward="false" selection-start-line="88" selection-start-column="16" selection-end-line="88" selection-end-column="16" />
+        <state relative-caret-position="187">
+          <caret line="78" column="0" lean-forward="true" selection-start-line="78" selection-start-column="0" selection-end-line="84" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrap-less/bootstrap/whitespace/standardPage.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="29" lean-forward="false" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
           <folding />
         </state>
       </provider>
