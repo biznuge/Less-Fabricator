@@ -7057,6 +7057,13 @@ pre {
     padding: 0.6em 0 0.3em 0;
   }
 }
+@media (max-width: 768px) {
+  .donut-graph {
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 .standard-body {
   max-width: 100%;
 }
