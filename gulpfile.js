@@ -40,6 +40,9 @@ var source = require('vinyl-source-stream');
 var streamify = require('gulp-streamify');
 var uglify = require('gulp-uglify');
 
+
+var cssmin = require('gulp-cssmin');
+
 // Configuration Control
 var srcFabricator = './src/fabricator';
 var srcToolkit = './src/toolkit';
@@ -116,6 +119,11 @@ gulp.task('styles:toolkit', function () {
 		//.pipe(prefix('last 2 version'))
 		.pipe(gulpif(!config.dev, csso()))
 		.pipe(gulp.dest(config.dest + '/toolkit/styles'))
+
+        .pipe(cssmin())
+        .pipe(rename({suffix: '.min'}))
+        .pipe(gulp.dest(config.dest + '/toolkit/styles'))
+
 		.pipe(gulpif(config.dev, reload({stream:true})));
 });
 

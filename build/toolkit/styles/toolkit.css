@@ -6705,9 +6705,6 @@ footer dl a {
   -moz-transition: all 1s ease-in-out;
   -webkit-transition: all 1s ease-in-out;
 }
-.input-group .form-control:focus {
-  /*font-size:1.4em;*/
-}
 .input-group .input-group-btn .btn {
   border-bottom-right-radius: 3px;
   border-top-right-radius: 3px;
