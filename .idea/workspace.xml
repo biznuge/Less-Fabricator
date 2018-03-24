@@ -2,17 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b3ce8ed-b4dd-4b48-93ac-930c59f6552a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/toolkit/styles/toolkit.css.min.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/toolkit/styles/toolkit.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap-less/bootstrap/whitespace/detailPage.less" afterPath="$PROJECT_DIR$/bootstrap-less/bootstrap/whitespace/detailPage.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap-less/bootstrap/whitespace/header.less" afterPath="$PROJECT_DIR$/bootstrap-less/bootstrap/whitespace/header.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap-less/bootstrap/whitespace/standardPage.less" afterPath="$PROJECT_DIR$/bootstrap-less/bootstrap/whitespace/standardPage.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build-and-move.bat" afterPath="$PROJECT_DIR$/build-and-move.bat" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/toolkit/styles/toolkit.css" afterPath="$PROJECT_DIR$/build/toolkit/styles/toolkit.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/toolkit/styles/toolkit.css.map" afterPath="$PROJECT_DIR$/build/toolkit/styles/toolkit.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulpfile.js" afterPath="$PROJECT_DIR$/gulpfile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/toolkit/styles/toolkit.css.min.map" afterPath="$PROJECT_DIR$/build/toolkit/styles/toolkit.css.min.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/toolkit/styles/toolkit.min.css" afterPath="$PROJECT_DIR$/build/toolkit/styles/toolkit.min.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -47,11 +41,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="standardPage.less" pinned="false" current-in-tab="false">
+      <file leaf-file-name="standardPage.less" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/bootstrap-less/bootstrap/whitespace/standardPage.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="1" lean-forward="false" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+            <state relative-caret-position="119">
+              <caret line="7" column="55" lean-forward="false" selection-start-line="7" selection-start-column="55" selection-end-line="7" selection-end-column="55" />
               <folding />
             </state>
           </provider>
@@ -97,7 +91,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.less" pinned="false" current-in-tab="true">
+      <file leaf-file-name="header.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bootstrap-less/bootstrap/whitespace/header.less">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
@@ -160,14 +154,14 @@
       <find>navbar-padding</find>
       <find>screen-sm</find>
       <find>380</find>
-      <find>st</find>
       <find>standa</find>
       <find>standar</find>
+      <find>styles:toolkit</find>
+      <find>st</find>
       <find>standard</find>
       <find>standard-</find>
       <find>standard-bo</find>
       <find>standard-body</find>
-      <find>styles:toolkit</find>
     </findStrings>
     <dirStrings>
       <dir>D:\projects\FABRICATOR\Less-Fabricator</dir>
@@ -225,11 +219,11 @@
         <option value="$PROJECT_DIR$/bootstrap-less/bootstrap/whitespace/relatedTests.less" />
         <option value="$PROJECT_DIR$/bootstrap-less/bootstrap/bootstrap.less" />
         <option value="$PROJECT_DIR$/bootstrap-less/bootstrap/whitespace/specific.less" />
-        <option value="$PROJECT_DIR$/bootstrap-less/bootstrap/whitespace/standardPage.less" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/bootstrap-less/bootstrap/whitespace/detailPage.less" />
         <option value="$PROJECT_DIR$/build-and-move.bat" />
         <option value="$PROJECT_DIR$/bootstrap-less/bootstrap/whitespace/header.less" />
+        <option value="$PROJECT_DIR$/bootstrap-less/bootstrap/whitespace/standardPage.less" />
       </list>
     </option>
   </component>
@@ -728,7 +722,7 @@
       <workItem from="1520977251249" duration="1268000" />
       <workItem from="1521589933449" duration="765000" />
       <workItem from="1521675126254" duration="788000" />
-      <workItem from="1521891600785" duration="11346000" />
+      <workItem from="1521891600785" duration="12091000" />
     </task>
     <task id="LOCAL-00001" summary="cosmetics around mobile views. tarted up a little but nothing massive ot be fair.">
       <created>1521895572970</created>
@@ -748,7 +742,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="126805000" />
+    <option name="totallyTimeSpent" value="127550000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="527" y="20" width="1331" height="1006" extended-state="0" />
@@ -1109,14 +1103,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bootstrap-less/bootstrap/whitespace/standardPage.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="1" lean-forward="false" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build/toolkit/styles/toolkit.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-5508">
@@ -1153,6 +1139,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="105" column="43" lean-forward="true" selection-start-line="105" selection-start-column="43" selection-end-line="105" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrap-less/bootstrap/whitespace/standardPage.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="55" lean-forward="false" selection-start-line="7" selection-start-column="55" selection-end-line="7" selection-end-column="55" />
           <folding />
         </state>
       </provider>

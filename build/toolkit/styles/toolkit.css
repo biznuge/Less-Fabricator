@@ -7075,7 +7075,9 @@ pre {
   max-width: 100%;
 }
 @media (max-width: 992px) {
-  .standard-body {
+  .standard-body > h2,
+  .standard-body > p,
+  .standard-body > .list-page {
     padding-left: 8px;
     padding-right: 8px;
   }
