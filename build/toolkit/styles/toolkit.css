@@ -6662,6 +6662,34 @@ footer dl a {
     height: 60px;
   }
 }
+/*@media (min-width: @screen-md) {
+  .skinny-logo{ display:none !important; }
+  .navbar-header{ height:80px; }
+}
+@media (max-width: @screen-sm) {
+  .logo{ display:none !important; }
+  .navbar-header{ height:60px; }
+}*/
+@media (max-width: 768px) {
+  .logo {
+    display: none !important;
+  }
+  .navbar-header {
+    height: 60px;
+    padding-top: 6px;
+    padding-left: 6px;
+  }
+  .navbar-brand {
+    padding: 2px 0;
+  }
+  footer .navbar-brand {
+    padding-top: 10px;
+  }
+  .skinny-logo {
+    height: 48px;
+    padding: 1px 0;
+  }
+}
 @media (min-width: 767px) {
   .input-group {
     /*max-width: 340px;*/
@@ -6690,7 +6718,7 @@ footer dl a {
   font-size: 1.2em;
 }
 .input-group-header {
-  width: 380px !important;
+  /*width:380px !important;*/
   max-width: 380px !important;
   font-size: 1.2em;
   float: right;
