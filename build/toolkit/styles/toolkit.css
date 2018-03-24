@@ -6768,6 +6768,16 @@ footer dl a {
 .centreAlign {
   text-align: center;
 }
+@media (min-width: 992px) {
+  .input-group-header {
+    max-width: 300px !important;
+  }
+}
+@media (min-width: 1200px) {
+  .input-group-header {
+    max-width: 400px !important;
+  }
+}
 .cookieInner {
   font-size: 1.4em;
   padding: 16px;
@@ -7072,6 +7082,29 @@ pre {
   max-width: 1600px;
   margin-left: auto;
   margin-right: auto;
+}
+a.relatedTest {
+  font-size: 0.85em;
+  text-decoration: none;
+  background-color: transparent;
+  border: solid 1px transparent;
+  color: #888;
+  display: block;
+  padding: 8px;
+}
+a.relatedTest:hover {
+  text-decoration: none;
+  cursor: pointer;
+  background-color: #FEFEFE;
+  border: solid 1px #DDD;
+  color: #444;
+}
+a.relatedTest strong {
+  font-size: 1.3em;
+  padding: 5px 3px;
+}
+.cleanRelated {
+  clear: both;
 }
 
 /*# sourceMappingURL=toolkit.css.map */
